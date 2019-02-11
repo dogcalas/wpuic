@@ -1,0 +1,94 @@
+$bgForm: #882689;
+$bgColor_Input_AuthForm: #6d6c71;
+
+body {
+    background: $bgForm;
+
+    &.auth {
+        #wrapContent {
+            #wrapContentInner {
+                #wrapForm {
+                    background: $bgForm;
+                    border: 1px solid rgba(255, 255, 255, 0.4);
+                    position: relative;
+                    width: 100%;
+                    padding: 5px 73px;
+                    color: #ffffff;
+
+                    .wrapLogoTextInner {
+                        font-size: 23.46pt;
+                        letter-spacing: -2;
+                        margin-top: -15px;
+                    }
+        
+                    .plus {
+                        position: absolute;
+                        font-size: 16px;
+                        line-height: 16px;
+                        color: #ffffff;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+        
+                    #plusTL {
+                        left: -6px;
+                        top: -11px;
+                    }
+        
+                    #plusTR {
+                        right: -6px;
+                        top: -11px;
+                    }
+        
+                    #plusBR {
+                        right: -6px;
+                        bottom: -6px;
+                    }
+        
+                    #plusBL {
+                        left: -6px;
+                        bottom: -6px;
+                    }
+        
+                    .wrapLogoInner, .wrapLogoTextInner {
+                        text-align: center;
+                    }
+
+                    .input-group {
+                        input, select, textarea {
+                            background: $bgColor_Input_AuthForm;
+                            color: #ffffff;
+                        }
+
+                        .input-group-text {
+                            background-color: $bgColor_Input_AuthForm;
+                            border: 1px solid $bgColor_Input_AuthForm;
+                            border-radius: 0;
+                        }
+
+                        .form-control {
+                            background-color: $bgColor_Input_AuthForm;
+                            border-radius: 0;
+                            border: 1px solid $bgColor_Input_AuthForm;
+                            outline: none;
+                            padding-top: .75rem;
+                            padding-bottom: .75rem;
+                        }
+                    }
+                }
+            }
+           
+        }
+        
+        @media screen and ( min-width: 768px) {
+            #wrapContent {
+                #wrapContentInner {
+                    #wrapForm {
+                        max-width: 500px!important;
+                    }
+                }
+            }
+        }
+    }
+}

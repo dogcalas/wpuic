@@ -1,0 +1,72 @@
+<!DOCTYPE html class="auth">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Entrar</title>
+
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="auth">
+    <section class="container-fluid" id="wrapHeader">
+        <div class="row">
+            <div class="col-sm-12">
+                <a href=""><img src="assets/img/logo-uic.png" alt="Logo"></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="container-fluid" id="wrapContent">
+        <div class="row align-items-md-center justify-content-md-center">
+            <div id="wrapContentInner" class="col-sm-12 d-flex justify-content-center align-items-center">
+                <div id="wrapForm">
+                    <div class="plus" id="plusTL">+</div>
+                    <div class="plus" id="plusTR">+</div>
+                    <div class="plus" id="plusBR">+</div>
+                    <div class="plus" id="plusBL">+</div>
+                    <div class="row wrapLogoInner">
+                        <div class="col-sm-12">
+                            <img src="assets/img/logo-chat.png" alt="Chat">
+                        </div>
+                    </div>
+                    <div class="row wrapLogoTextInner">
+                        <div class="col-sm-12">
+                            chat
+                        </div>
+                    </div>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="username"><img src="assets/img/username.png"></span>
+                        </div>
+                        <input type="text" class="form-control" value="nombre de usuario o email" aria-label="nombre de usuario o email" aria-describedby="username">
+                    </div>
+                    <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="passowrd"><img src="assets/img/key.png"></span>
+                            </div>
+                            <input type="text" class="form-control" value="contraseña" aria-label="contraseña" aria-describedby="password">
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="assets/js/jquery-3.3.1.slim.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/uic.js"></script>
+    <script>
+        jQuery(document).ready(function () {
+
+            var isChrome = !!window.chrome;
+            if ( isChrome ) {
+                $('#plusTL').css('top', '-10px');
+                $('#plusTR').css('top', '-10px');
+                $('#plusBL').css('bottom', '-7px');
+                $('#plusBR').css('bottom', '-7px');
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+body {
+  background: #882689;
+}
+
+body.auth #wrapContent #wrapContentInner #wrapForm {
+  background: #882689;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  position: relative;
+  width: 100%;
+  padding: 5px 73px;
+  color: #ffffff;
+}
+
+body.auth #wrapContent #wrapContentInner #wrapForm .wrapLogoTextInner {
+  font-size: 23.46pt;
+  letter-spacing: -2;
+  margin-top: -15px;
+}
+
+body.auth #wrapContent #wrapContentInner #wrapForm .plus {
+  position: absolute;
+  font-size: 16px;
+  line-height: 16px;
+  color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body.auth #wrapContent #wrapContentInner #wrapForm #plusTL {
+  left: -6px;
+  top: -11px;
+}
+
+body.auth #wrapContent #wrapContentInner #wrapForm #plusTR {
+  right: -6px;
+  top: -11px;
+}
+
+body.auth #wrapContent #wrapContentInner #wrapForm #plusBR {
+  right: -6px;
+  bottom: -6px;
+}
+
+body.auth #wrapContent #wrapContentInner #wrapForm #plusBL {
+  left: -6px;
+  bottom: -6px;
+}
+
+body.auth #wrapContent #wrapContentInner #wrapForm .wrapLogoInner, body.auth #wrapContent #wrapContentInner #wrapForm .wrapLogoTextInner {
+  text-align: center;
+}
+
+body.auth #wrapContent #wrapContentInner #wrapForm .input-group input, body.auth #wrapContent #wrapContentInner #wrapForm .input-group select, body.auth #wrapContent #wrapContentInner #wrapForm .input-group textarea {
+  background: #6d6c71;
+  color: #ffffff;
+}
+
+body.auth #wrapContent #wrapContentInner #wrapForm .input-group .input-group-text {
+  background-color: #6d6c71;
+  border: 1px solid #6d6c71;
+  border-radius: 0;
+}
+
+body.auth #wrapContent #wrapContentInner #wrapForm .input-group .form-control {
+  background-color: #6d6c71;
+  border-radius: 0;
+  border: 1px solid #6d6c71;
+  outline: none;
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+}
+
+@media screen and (min-width: 768px) {
+  body.auth #wrapContent #wrapContentInner #wrapForm {
+    max-width: 500px !important;
+  }
+}
+/*# sourceMappingURL=style.css.map */
