@@ -1,0 +1,2 @@
+u: uicadmin
+p: admin
